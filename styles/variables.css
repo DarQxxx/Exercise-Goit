@@ -1,0 +1,60 @@
+.bold {
+  font-weight: 700;
+}
+
+.text--black {
+  color: #333333;
+}
+.text--gray {
+  color: #707070;
+}
+.text--light-gray {
+  color: #999999;
+}
+.text--red {
+  color: #f38181;
+}
+.text--montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.text--roboto {
+  font-family: "Roboto", sans-serif;
+}
+.text--kaushan {
+  font-family: "Kaushan Script", cursive;
+}
+
+.btn {
+  width: 154px;
+  height: 34px;
+  font-weight: 700;
+  font-size: 14px;
+  outline: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn--blue {
+  background-color: #95e1d3;
+  border: 0;
+  transition: background-color 0.3s;
+}
+.btn--blue:hover, .btn--blue:focus {
+  background-color: #f38181;
+}
+.btn--transparent {
+  border: 3px solid #ffffff;
+  background-color: transparent;
+  transition: color 0.2s, border-color 0.2s;
+}
+.btn--transparent:hover {
+  color: #fce38a;
+  border-color: #fce38a;
+}
+
+.line {
+  width: 60px;
+  height: 3px;
+  line-height: 3px;
+  background-color: #f38181;
+  margin: 30px 0;
+}/*# sourceMappingURL=variables.css.map */

@@ -1,0 +1,70 @@
+// .font {
+//     @for $i from 5 through 50 {
+//       &--#{$i} {
+//         font-size: #{$i}px !important;
+//       }
+//     }
+//   }
+@import "./colors";
+.bold{
+    font-weight: 700;
+}
+
+.text{
+  &--black{
+      color: color($colors, black);
+  }
+  &--gray{
+      color: color($colors, gray);
+  }
+  &--light-gray{
+      color: color($colors, lightGray);
+  }
+  &--red{
+      color: color($colors, red);
+  }
+  &--montserrat{
+      font-family: 'Montserrat', sans-serif;
+  }
+  &--roboto{
+      font-family: 'Roboto', sans-serif;
+  }
+  &--kaushan{
+      font-family: 'Kaushan Script', cursive;
+  }
+}
+
+.btn{
+  width: 154px;
+  height: 34px;
+  font-weight: 700;
+  font-size: 14px;
+  outline: none;
+  color: color($colors, white);
+  cursor: pointer;
+  &--blue{
+      background-color: color($colors, blue);
+      border: 0;
+      transition: background-color 0.3s;
+      &:hover, &:focus{
+        background-color: color($colors, red);
+      }
+  }
+  &--transparent{
+      border: 3px solid color($colors, white);
+      background-color: transparent;
+      transition: color 0.2s, border-color 0.2s;
+      &:hover{
+          color: color($colors, yellow);
+          border-color: color($colors, yellow);
+      }
+  }
+}
+
+.line{
+  width:60px;
+  height: 3px;
+  line-height: 3px;
+  background-color: color($colors, red);
+  margin: 30px 0;
+}

@@ -1,0 +1,16 @@
+$colors: (
+  red: #f38181,
+  yellow: #fce38a,
+  green: #eaffd0,
+  white: #ffffff,
+  blue: #95e1d3,
+  black: #333333,
+  gray: #707070,
+  lightGray: #999999,
+  border: #E7E7E7
+);
+
+@function color($palette, $key) {
+    @return map_get($palette, $key)
+  }
+  
